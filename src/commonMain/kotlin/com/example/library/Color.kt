@@ -1,3 +1,6 @@
 package com.example.library
 
-expect inline class Color(val value: ULong)
+import kotlin.jvm.JvmInline
+
+@JvmInline
+expect value class Color(val value: ULong)
