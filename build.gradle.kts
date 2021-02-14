@@ -37,6 +37,10 @@ kotlin {
         }
         val iosMain by getting
     }
+    sourceSets.all {
+        languageSettings.languageVersion = "1.5"
+        languageSettings.apiVersion = "1.5"
+    }
 }
 
 android {
