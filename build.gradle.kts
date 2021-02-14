@@ -1,5 +1,5 @@
 plugins {
-    kotlin("multiplatform") version "1.4.30"
+    kotlin("multiplatform") version "1.4.21"
     id("com.android.library")
 }
 
@@ -32,7 +32,7 @@ kotlin {
         val commonMain by getting
         val androidMain by getting {
             dependencies {
-                implementation("androidx.compose.ui:ui:1.0.0-alpha12")
+                implementation("androidx.compose.ui:ui:1.0.0-alpha11")
             }
         }
         val iosMain by getting
